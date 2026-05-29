@@ -89,6 +89,30 @@
             }
 
         }
+        .gradeinstrumentos{
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .cartaoInstrumento{
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 1.5rem;
+            width: 300px;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3 );
+            text-align: center;
+            transition: transform 0,3s ease;
+        }
+
+        .cartaoInstrumento:houver{  
+        transform: transformY(-5px);
+        
+        }
+        .nomeInstrumentos{
+            color: #333333;
+        }
     </style>
 </head>
 <body>
@@ -148,45 +172,51 @@
          </section>
 
          <!--seçao instrumentos-->
-         <section id="produtos">
-            <h2>catalogo</h2>
-            <article>
-               <h3>guirrtarra eletrica stratocaster</h3>
-               <img 
-               src="https://images.unsplash.com/photo-1516924962500-2b4b3b99ea02" 
-               alt="imagem da guitarra"
-               width="300"
-               style="border-radius: 12px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);"
-               >
-               <p>
-                <strong>Marcas: </strong>feal
-               </p>
-               <p>
-                guirrtarra classica de altar performance, ideal para rock e blues
-               </p>
-               <p>
-                <em>Preço:R$ 3.500,00</em>
-               </p>
-               <a href="#">adicionar ao carrinho</a>
-            </article>
-             <article>
-               <h3>Kit bateria </h3>
-               <img 
-               src="https://images.unsplash.com/photo-1602001373676-64e1598dbc6a" 
-               alt="imagem do kit de bateria"
-               width="300"
-               >
-                 <p>
-                <strong>Marcas:</strong>pearl</p>
-               </p>kit de bateria preto e roxo ideal para voce. </p>
-               <p>
-                guirrtarra classica de altar performance, ideal para rock e blues
-               </p>
-               <p>
-                <em>Preço:R$ 13.900,00</em>
-               </p>
-               <a href="#">adicionar ao carrinho</a>
-            </article>
+         <section id="produtos" class="container" style="background-color: #eeeeee;">
+            <h2 class="titulosecao">catalogo</h2>
+            <div class="gradeinstrumentos">
+                <article class="cartaoInstrumento">
+                   <h3 class="nome;Instrumentos">guirrtarra eletrica stratocaster</h3>
+                   <img 
+                   src="https://images.unsplash.com/photo-1516924962500-2b4b3b99ea02" 
+                   alt="imagem da guitarra"
+                   width="300"
+                   style="border-radius: 4px; margin-bottom: 1rem;"
+                   style="border-radius: 12px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);"
+                   >
+                   <p>
+                    <strong>Marcas: </strong>feal
+                   </p>
+                   <p>
+                    guirrtarra classica de altar performance, ideal para rock e blues
+                   </p>
+                   <p>
+                    <em style="color:d32f2f; font-weight: bold; font-size: 1,2rem;">Preço:R$ 3.500,00</em>
+                   </p>
+                   <a href="#" class="botaoPrincipal">adicionar ao carrinho</a>
+
+                </article>
+                 <article class="cartaoInstrumento>
+                   <h3>Kit bateria /h3>
+                   <img>
+                   src="photo-1602001373676-64e1598dbc6a.jpg
+                   alt="imagem do kit de bateria"
+                   width="300"
+                   >
+                   <article>
+                    <strong>Marcas:</strong>pearl</p>
+                   </p>kit de bateria preto e roxo ideal para voce. </p>
+                   <p>
+                    guirrtarra classica de altar performance, ideal para rock e blues
+                   </p>
+                   <p>
+                    <em>Preço:R$ 13.900,00</em>
+                   </p>
+                   <a href="#">adicionar ao carrinho</a>
+                   </article>
+                     <p>
+                    
+            </div>
          </section>
 
          <!--seção Depoimentos-->
