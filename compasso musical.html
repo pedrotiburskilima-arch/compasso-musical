@@ -235,7 +235,7 @@
                   <cite>Tiburski baterista</cite>
                  </footer>
               </blockquote>
-              <br>
+
               <blockquote style="background: #ffffff; padding: 2rem; border-left: 5px solid #d32f2f; box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); max-width: 400px;">
                 <p class="fronte-style: italic">
                   "comprei minha primeira guitarra na compasso musical. O atendimento me ajudou a escolher o modelo certo"
@@ -248,38 +248,49 @@
          </section>
 
          <!--seção contatatos-->
-         <sections id="contatos">
-          <h2>Fale conosco</h2>
-          <p>Tem duvidas sobre algum instrumento? Mande uma mensagem ou venha nos visitar.</p>
-          <address>
-            <p>
-              Loja fisica: <strong>Centro de historico, cuiaba-MT</strong>
-            </p>
-          </address>
-          <form action="">
-            <label for="nome">Nome Completo:</label>
-            <br>
-            <input type="text" name="nome" id="nome" placecholder="Digite seu nome" required> 
-            <br><br>
-            <label for="email">E-mail</label>     
-            <br>
-            <input type="email" name="email" id="email"placeholder="digite deu e-mail" required>
-            <br><br>
-            <label for="departamento">departamento</label>
-            <br>
-            <section>
-              <option value="vendas">venda</option>
-              <option value="suporte">suporte</option>
-              <option value="financeiro">financeiro</option> 
-              <option value="sugestao">sugestões</option>
-            </section>
-            <br><br>
-            <label for="mensagem">mensagem</label>
-            <br>
-            <textarea name="mensagem" id="mensagem" rows="10"placecholder="digite sua mensagem"></textarea>
-            <br><br>
-            <button type="submit">Enviar Mensagem</button>
-          </form>
+         <sections id="contatos" class="container" style="background-color: #eceff1;">
+          <h2 class="tituloSecao">Fale conosco</h2>
+          <div style="max-width: 600px; margin: 0 auto; background: #ffffff; padding: 2rem; border-radius: 8px; box-shadow: 0 6cap 10px rgba(0, 0, 0, 0.3); ">
+              <p style="text-align: center; margin-bottom: 2rem; ">Tem duvidas sobre algum instrumento? Mande uma mensagem ou venha nos visitar.</p>
+              <address>
+                <p>
+                  Loja fisica: <strong>Centro de historico, cuiaba-MT</strong>
+                </p>
+              </address style="text-align: center; margin-bottom 2rem; fronte-style: normal;">
+              <form action="">
+                <label for="nome" style="font-weight: bold;">Nome Completo:</label>
+
+                <input type="text" name="nome"
+                 id="nome"
+                  placecholder="Digite seu nome"
+                  required 
+                  style="width: 100%; padding: 0.8rem; margin: 0.5rem 0 0.5rem 0; border: 1px solid #cccccc; border-radius: 4px; "  
+                  > 
+
+                <label for="email"style="font-weight: bold;">E-mail</label>     
+
+                <input type="email" name="email" id="email"placeholder="digite deu e-mail" required style="width: 100%; padding: 0.8rem; margin: 0.5rem 0 0.5rem 0; border: 1px solid #cccccc; border-radius: 4px; ">
+
+                <label for="departamento"style="font-weight: bold;">departamento</label>
+
+                <section>
+                  <option value="vendas">venda</option>
+                  <option value="suporte">suporte</option>
+                  <option value="financeiro">financeiro</option> 
+                  <option value="sugestao">sugestões</option>
+                </section>
+
+                <label for="mensagem">mensagem</label>
+
+                <textarea name="mensagem" 
+                id="mensagem" 
+                rows="10" 
+                style="width: 100%; padding: 0.8rem; margin: 0.5rem 0 0.5rem 0; border: 1px solid #cccccc; border-radius: 4px; "
+                placecholder=></textarea>
+
+                <button type="submit" class="botaoPrincipal" style="width: 100%; border: none; cursor: pointer;">Enviar Mensagem</button>
+              </form>
+          </div>
          </sections>
      </main>
 
